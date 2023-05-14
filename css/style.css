@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+p, h1, h2{
+    color: var(--font_color_main);
+}
+
+p{
+    font-size: var(--font_size_m);
+}
+
+h3{
+    color: var(--font_color_secondary);
+    font-weight: 100;
+}
+
+a{
+    text-decoration: none;
+    color: var(--font_color_highlight);
+}
+
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--font_color_secondary);
+}
+
+.pageIntroWelcomes p{
+    margin: auto;
+    max-width: 500px;
+}
+
+span{
+    color: var(--font_color_highlight);
+}
+
+.imgDivider{
+    margin-top: var(--spacing_l);
+    margin-bottom: var(--spacing_l);
+}
+
+.imgDivider img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.headerBanner, .wrapper{
+    background-color: var(--color_main);
+}
+
+.navbar{
+    background-color: var(--color_secondary);
+}
+
+.navPageDisplay{
+    float: right; 
+    position: absolute;; 
+    right: 0px;
+    clear: both;
+}
+
+main {
+    padding-top: var(--spacing_xl);
+    padding-bottom: var(--spacing_xl);
+}
+
+.carousel .carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+
+
+table {
+    color: var(--font_color_main);
+    font-size: var(--font_size_m);
+    margin: auto;
+    padding: var(--spacing_xl);
+    border-collapse: collapse;  
+}
+
+table h3{
+    text-align: left;
+}
+
+td, th {
+    
+    text-align: left;
+    padding: 8px;
+}
+
+.foodImg{
+    width: 100%;
+    object-fit: cover;
+    margin-top: var(--spacing_xl);   
+}
+
+.googleMapIframe{
+    width: 100%;
+    height: 450px;
+    border: none;
+}
+
+#reservationFornIframe {
+    width: 100%;
+    height: 1469px;
+    border: none;
+}
+
+
+footer{
+    padding: var(--spacing_m);
+    background-color: var(--color_secondary);
+    font-size: var(--font_size_s);
+}
+
+
+footer p, footer a{
+    color: var(--color_main);
+    font-size: var(--font_size_s);
+}
+
+footer a:hover{
+    color: var(--font_color_highlight);
+}
+
+.FooterNav, .socMedLogos{
+    width: 100%;
+    padding: var(--spacing_m);
+}
+
+.footerNav a{
+    margin: var(--spacing_m);
+}
+
+.socMedLogos img{
+    height: 40px;
+    margin: var(--spacing_m);
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .hideOnSmallScn{
+        display: none;
+    }
+
+    .foodImg{
+    margin-top: var(--spacing_l);
+    }
+
+    .socMedLogos img{
+        height: 30px;
+    }
+
+
+    
+}

@@ -1,0 +1,21 @@
+:root{
+    --color_main: #fff;
+    --color_secondary: #000;
+    --color_highlight: rgb(109, 0, 0);
+
+    --spacing_sm:8px;
+    --spacing_m:16px;
+    --spacing_l:36px;
+    --spacing_xl:100px;
+
+    --font_size_s: 0.9em;
+    --font_size_m: 1.1em;
+    --font_size_l: 1.3em;
+    --font_size_xl: 1.5em;
+
+    --font_color_main: rgb(109, 32, 32);
+    --font_color_secondary: rgb(12, 12, 46);
+    --font_color_highlight: rgb(223, 15, 15);
+
+    --transparent: rgb(0, 0, 0, 0.5)
+}
