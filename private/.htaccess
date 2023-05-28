@@ -1,5 +1,1 @@
-Rewrite Engine On 
-
-Redirect https://www.bing.com/videos/riverview/relatedvideo?&q=how+to+use+.htaccess+to+add+a+password+to+a+page&&mid=11D3AA536E1E11FB45B611D3AA536E1E11FB45B6&&FORM=VRDGAR
-
-
+Deny from all
